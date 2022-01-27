@@ -12,7 +12,7 @@ The Numerology of the Effie Name is 413.
 Great characteristics for a background task manager!
 
 ## First step
-- You need configurar development.env and/or production.env
+- You need to configure development.env and/or production.env
 - Remember to add your .env and dotEnvConfig.js in build folder after compiling
 
 ## Install packages
