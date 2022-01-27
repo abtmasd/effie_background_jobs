@@ -1,0 +1,16 @@
+{
+    "apps": [
+      {
+        "name": "effie_api",
+        "script": "./built/src/server.js",
+        "error_file": "effie_server_err.log",
+        "out_file": "effie_server_out.log",
+        "time": true,
+        "env":{
+          "NODE_ENV": "production"
+        }
+      }
+    ]
+  }
+  
+  
