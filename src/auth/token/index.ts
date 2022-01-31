@@ -85,7 +85,7 @@ async function tokenAuthenticate(req: any, res: any, next: any) {
   
   //O token enviado é um token existente?
     if (redis_token1 == token1 || !redis_token1) {
-        //O token existente está espirado? renewToken
+        //O token existente está expirado? renewToken
         if (redis_token1_ttl < 3600 || !redis_token1_ttl) {
             const result = await renewToken("Effie:token1");
             if (result) {
@@ -99,7 +99,7 @@ async function tokenAuthenticate(req: any, res: any, next: any) {
     
     //O token enviado é um token existente?
     if(redis_token2 == token2 || !redis_token2){
-            //O token existente está espirado? renewToken
+            //O token existente está expirado? renewToken
         if (redis_token2_ttl < 3600 || !redis_token2_ttl) {
             const result = await renewToken("Effie:token2");
                 if (result) {
