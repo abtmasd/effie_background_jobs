@@ -106,7 +106,7 @@ async function tokenAuthenticate(req: any, res: any, next: any) {
   
   if (!token1 && !token2) return res.status(401).send({ error: "No token provided" });
   
-  if (redis_token1 == token1) {
+  if (redis_token1 === token1) {
     if (bcrypt.compareSync(passwordToGenerateToken, token1)) {
       valid_token = true; //Pass true!
     }
