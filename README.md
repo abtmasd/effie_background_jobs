@@ -5,9 +5,9 @@ Effie from greek means good reputation.
 
 The Numerology of the Effie Name is 413. 
 
-- 4 - Is related to strength and stability.
-- 1 - Has a deep need to be independent, exercise their individuality and assume leadership.
-- 3 - Communicate through your creativity.
+- 4 - Strength and stable.
+- 1 - Independent.
+- 3 - Communicative.
 
 Great characteristics for a background task manager!
 
